@@ -37,6 +37,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://webtestearly.com/images/paristower_2x.jpg</loc>
+    <lastmod>2017-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://webtestearly.com/images/img_2867.jpg</loc>
+    <lastmod>2017-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://webtestearly.com/images/sdc10859_2x.jpg</loc>
     <lastmod>2017-02-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -44,30 +56,6 @@
   </url>
   <url>
     <loc>http://webtestearly.com/images/paristower.jpg</loc>
-    <lastmod>2017-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://webtestearly.com/images/paristower_2x.jpg</loc>
-    <lastmod>2017-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://webtestearly.com/images/logo75x75_2x.png</loc>
-    <lastmod>2017-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://webtestearly.com/images/sdc10859.jpg</loc>
-    <lastmod>2017-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://webtestearly.com/images/twitter.jpg</loc>
     <lastmod>2017-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -91,25 +79,25 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://webtestearly.com/images/10931693_1619214824968490_1274769264391182814_o.jpg</loc>
-    <lastmod>2017-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://webtestearly.com/images/logo75x75.png</loc>
     <lastmod>2017-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://webtestearly.com/images/img_7890.jpg</loc>
+    <loc>http://webtestearly.com/images/sdc10859.jpg</loc>
     <lastmod>2017-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://webtestearly.com/images/img_2867.jpg</loc>
+    <loc>http://webtestearly.com/images/logo75x75_2x.png</loc>
+    <lastmod>2017-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://webtestearly.com/images/img_2867_2x.jpg</loc>
     <lastmod>2017-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -121,7 +109,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://webtestearly.com/images/img_2867_2x.jpg</loc>
+    <loc>http://webtestearly.com/images/twitter.jpg</loc>
     <lastmod>2017-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
