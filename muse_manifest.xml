@@ -1,9 +1,9 @@
-<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="webtestearly.com" resolutions="1x,2x" timestamp="1485960978763">
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="webtestearly.com" resolutions="1x,2x" timestamp="1486069408117">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="master_a-master.css" crc="4005738713" ref="habitat:index:about-us:trump-s-tirade:contact-us:tester"/>
+    <file name="master_a-master.css" crc="67777564" ref="habitat:index:about-us:trump-s-tirade:contact-us:tester"/>
     <file name="habitat.css" crc="525517443" ref="habitat"/>
-    <file name="index.css" crc="226227533" ref="index"/>
+    <file name="index.css" crc="76897159" ref="index"/>
     <file name="about-us.css" crc="3824485644" ref="about-us"/>
     <file name="trump-s-tirade.css" crc="4098860638" ref="trump-s-tirade"/>
     <file name="contact-us.css" crc="3776580170" ref="contact-us"/>
@@ -26,6 +26,7 @@
     <file name="musewpslideshow.js" crc="405464237" ref="index"/>
     <file name="jquery.museoverlay.js" crc="305414130" ref="index"/>
     <file name="touchswipe.js" crc="221459597" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4001026563" ref="index"/>
   </folder>
   <folder name="images">
     <file name="blank.gif" crc="4208392903" ref="index"/>
@@ -44,11 +45,21 @@
     <file name="10931693_1619214824968490_1274769264391182814_o.jpg" crc="167202819" seo="true" ref="index"/>
     <file name="img_7890.jpg" crc="4224160705" seo="true" ref="index"/>
     <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="phoneapp2_cr.png" crc="3813721190" ref="index"/>
+    <file name="phoneapp2_cr_2x.png" crc="74112166" ref="index"/>
+    <file name="phoneapp2_cr_state2.png" crc="4084243081" ref="index"/>
+    <file name="phoneapp2_cr_state2_2x.png" crc="62332795" ref="index"/>
+    <file name="img_1084.png" crc="360899826" seo="true" ref="index"/>
+    <file name="img_1084_2x.png" crc="90215790" seo="true" ref="index"/>
+    <file name="cc earthcolab.png" crc="408041106" seo="true" ref="index"/>
+    <file name="cc earthcolab_2x.png" crc="4068057382" seo="true" ref="index"/>
+    <file name="cc earthcolab_state2.png" crc="4235454985" ref="index"/>
+    <file name="cc earthcolab_state2_2x.png" crc="243979672" ref="index"/>
   </folder>
-  <file name="index.html" crc="34289509" seo="true" mt="1485960116600" redirect="true"/>
-  <file name="habitat.html" crc="86602704" seo="true" mt="1485958117135" redirect="true"/>
-  <file name="about-us.html" crc="386699099" seo="true" mt="1485958117135" redirect="true"/>
-  <file name="contact-us.html" crc="3930128494" seo="true" mt="1485958117135" redirect="true"/>
-  <file name="trump-s-tirade.html" crc="527212124" seo="true" mt="1485958117135" redirect="true"/>
-  <file name="tester.html" crc="301229849" seo="true" mt="1485958117135" redirect="true"/>
+  <file name="index.html" crc="3799177154" seo="true" mt="1486054810565" redirect="true"/>
+  <file name="habitat.html" crc="343227042" seo="true" mt="1485961615901" redirect="true"/>
+  <file name="about-us.html" crc="4265080866" seo="true" mt="1485961615904" redirect="true"/>
+  <file name="contact-us.html" crc="399353958" seo="true" mt="1485961615906" redirect="true"/>
+  <file name="trump-s-tirade.html" crc="352488605" seo="true" mt="1485961615908" redirect="true"/>
+  <file name="tester.html" crc="3994453596" seo="true" mt="1485961615911" redirect="true"/>
 </manifest>
