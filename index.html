@@ -17,8 +17,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=67777564"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=76897159" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=133705473"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4148844386" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -150,10 +150,23 @@ poster="assets/vlcsnap-error903.png"   autoplay
      </div>
     </div>
    </div>
-   <div class="clearfix colelem" id="ppu4877-4"><!-- group -->
+   <div class="clearfix colelem" id="pu4855"><!-- group -->
+    <div class="grpelem" id="u4855"><!-- simple frame --></div>
     <div class="clearfix grpelem" id="pu4877-4"><!-- column -->
      <div class="clearfix colelem" id="u4877-4"><!-- content -->
       <p>Exploring Issues</p>
+     </div>
+     <div class="PamphletWidget clearfix colelem" id="pamphletu6023"><!-- none box -->
+      <div class="popup_anchor" id="u6024popup">
+       <div class="ContainerGroup clearfix" id="u6024"><!-- stack box -->
+        <div class="Container invi museBGSize grpelem" id="u6025"><!-- simple frame --></div>
+       </div>
+      </div>
+      <div class="ThumbGroup clearfix grpelem" id="u6032"><!-- none box -->
+       <div class="popup_anchor" id="u6033popup">
+        <div class="Thumb popup_element" id="u6033"><!-- simple frame --></div>
+       </div>
+      </div>
      </div>
      <div class="clearfix colelem" id="pu5633"><!-- group -->
       <div class="museBGSize grpelem" id="u5633"><!-- content --></div>
@@ -169,12 +182,11 @@ poster="assets/vlcsnap-error903.png"   autoplay
         </div>
        </div>
       </div>
+      <div class="clip_frame grpelem" id="u6021"><!-- image -->
+       <img class="block" id="u6021_img" src="images/img_1084.png?crc=3827478754" data-hidpi-src="images/img_1084_2x.png?crc=107790822" alt="" width="334" height="334"/>
+      </div>
      </div>
      <a class="nonblock nontext MuseLinkActive clearfix colelem" id="u5345-4" href="index.html"><!-- content --><p>MORE NEWS</p></a>
-    </div>
-    <div class="grpelem" id="u4855"><!-- simple frame --></div>
-    <div class="clip_frame grpelem" id="u4868"><!-- image -->
-     <img class="block" id="u4868_img" src="images/img_1084.png?crc=360899826" data-hidpi-src="images/img_1084_2x.png?crc=90215790" alt="" data-image-width="335" data-image-height="335"/>
     </div>
     <div class="clip_frame grpelem" id="u4874"><!-- image -->
      <img class="block" id="u4874_img" src="images/cc%20earthcolab.png?crc=408041106" data-hidpi-src="images/cc%20earthcolab_2x.png?crc=4068057382" alt="" data-image-width="335" data-image-height="334"/>
@@ -219,6 +231,7 @@ Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized');
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('#slideshowu870', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:5000,slideLinkStopsSlideShow:false,transitionStyle:'horizontal',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:1200,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu870 */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.initWidget('#pamphletu6023', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_trigger',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:false,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu6023 */
 Muse.Utils.initWidget('#pamphletu5568', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_trigger',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:false,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu5568 */
 Muse.Utils.initWidget('#pamphletu5666', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_trigger',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:false,resumeAutoplay:false,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu5666 */
 Muse.Utils.showWidgetsWhenReady();/* body */
