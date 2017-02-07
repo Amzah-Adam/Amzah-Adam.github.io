@@ -17,13 +17,29 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>HABITAT</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=67777564"/>
-  <link rel="stylesheet" type="text/css" href="css/habitat.css?crc=525517443" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=133705473"/>
+  <link rel="stylesheet" type="text/css" href="css/habitat.css?crc=305838883" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
   <![endif]-->
-   </head>
+    <!--HTML Widget code-->
+  
+<style>
+.u6143 {
+  position: relative;
+}
+ .u6143right, .u6143left {
+    position: absolute;
+  }
+
+
+.u6143left {
+  overflow: hidden;
+}
+</style>
+
+ </head>
  <body class="always_vert_scroll">
 
   <div class="clearfix borderbox" id="page"><!-- group -->
@@ -34,11 +50,19 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
     </div>
     <a class="nonblock nontext clip_frame" id="u144" href="index.html"><!-- image --><img class="block" id="u144_img" src="images/logo75x75.png?crc=93573830" data-hidpi-src="images/logo75x75_2x.png?crc=473571761" alt="" width="74" height="74"/></a>
+    <a class="nonblock nontext clearfix" id="u154-4" href="index.html"><!-- content --><p>CLIMATE COMMUNITY</p></a>
    </div>
-   <div class="grpelem" id="u1565"><!-- simple frame --></div>
-   <a class="nonblock nontext clearfix" id="u154-4" href="index.html"><!-- content --><p>CLIMATE COMMUNITY</p></a>
-   <div class="clearfix grpelem" id="u1562-4"><!-- content -->
-    <p>NOT READY YET, PLEASE BE PATIENT PLEASE.</p>
+   <div class="size_fixed grpelem" id="u6143"><!-- custom html -->
+    
+<div class="u6143">
+  <div class="u6143right">
+    <img src="assets/prepostmain(post).jpg" width="1169"/>
+  </div>
+  <div class="u6143left">
+    <img src="assets/prepostmain(pre).jpg" width="1169"/>
+  </div>
+</div>
+
    </div>
    <nav class="MenuBar clearfix" id="menuu269"><!-- horizontal box -->
     <div class="MenuItemContainer clearfix grpelem" id="u412"><!-- vertical box -->
@@ -57,7 +81,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u373" href="contact-us.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap transition clearfix grpelem" id="u376-4"><!-- content --><p>Contact Us</p></div></a>
     </div>
    </nav>
-   <div class="verticalspacer" data-offset-top="1092" data-content-above-spacer="1091" data-content-below-spacer="61"></div>
+   <div class="verticalspacer" data-offset-top="923" data-content-above-spacer="923" data-content-below-spacer="61"></div>
    <div class="browser_width grpelem" id="u400-bw">
     <div id="u400"><!-- group -->
      <div class="clearfix" id="u400_align_to_page">
@@ -68,6 +92,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
    </div>
   </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
+</script>
   <!-- Other scripts -->
   <script type="text/javascript">
    window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
@@ -90,5 +121,27 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </script>
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4159430777" type="text/javascript" async data-main="scripts/museconfig.js?crc=172512987" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+  
+<script type="text/javascript">
+var $u6143left = $('.u6143left'),
+		img_width = $('.u6143left img').width(),
+		init_split = Math.round(img_width/2);
+  
+  $u6143left.width(init_split);  
+
+		$('.u6143').mousemove(function(e){
+		var offX  = (e.offsetX || e.clientX - $u6143left.offset().left);
+			$u6143left.width(offX);
+		});
+
+		$('.u6143').mouseleave(function(e){
+		$u6143left.stop().animate({
+		width: init_split
+		},500)
+		});
+</script>
+
    </body>
 </html>

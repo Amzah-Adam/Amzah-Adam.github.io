@@ -1,17 +1,19 @@
-<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="webtestearly.com" resolutions="1x,2x" timestamp="1486118685838">
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="webtestearly.com" resolutions="1x,2x" timestamp="1486502248923">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="master_a-master.css" crc="133705473" ref="habitat:index:about-us:trump-s-tirade:contact-us:tester"/>
-    <file name="habitat.css" crc="525517443" ref="habitat"/>
-    <file name="index.css" crc="4148844386" ref="index"/>
-    <file name="about-us.css" crc="3824485644" ref="about-us"/>
-    <file name="trump-s-tirade.css" crc="4098860638" ref="trump-s-tirade"/>
-    <file name="contact-us.css" crc="3776580170" ref="contact-us"/>
-    <file name="tester.css" crc="510587448" ref="tester"/>
+    <file name="habitat.css" crc="305838883" ref="habitat"/>
+    <file name="index.css" crc="3911134333" ref="index"/>
+    <file name="about-us.css" crc="3949000582" ref="about-us"/>
+    <file name="trump-s-tirade.css" crc="3949000582" ref="trump-s-tirade"/>
+    <file name="contact-us.css" crc="3949000582" ref="contact-us"/>
+    <file name="tester.css" crc="3949000582" ref="tester"/>
   </folder>
   <folder name="assets">
     <file name="tester.mp4" crc="201986641" seo="true" mt="1485930238000"/>
     <file name="vlcsnap-error903.png" crc="126478059" seo="true" mt="1485958551000"/>
+    <file name="prepostmain(pre).jpg" crc="370548326" seo="true" mt="1486501640000"/>
+    <file name="prepostmain(post).jpg" crc="105238549" seo="true" mt="1486502114000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:habitat:about-us:contact-us:trump-s-tirade:tester"/>
@@ -32,12 +34,6 @@
     <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="logo75x75.png" crc="93573830" seo="true" ref="index"/>
     <file name="logo75x75_2x.png" crc="473571761" seo="true" ref="index"/>
-    <file name="sdc10859.jpg" crc="4068859602" seo="true" ref="index"/>
-    <file name="sdc10859_2x.jpg" crc="3760431780" seo="true" ref="index"/>
-    <file name="paristower.jpg" crc="526500022" seo="true" ref="index"/>
-    <file name="paristower_2x.jpg" crc="3798363421" seo="true" ref="index"/>
-    <file name="img_2867.jpg" crc="395812952" seo="true" ref="index"/>
-    <file name="img_2867_2x.jpg" crc="48157900" seo="true" ref="index"/>
     <file name="twitter.jpg" crc="398792365" seo="true" ref="index"/>
     <file name="logo.png" crc="527510964" seo="true" ref="index"/>
     <file name="logo_2x.png" crc="3871238453" seo="true" ref="index"/>
@@ -58,10 +54,10 @@
     <file name="img_1084_state2.png" crc="429565581" ref="index"/>
     <file name="img_1084_state2_2x.png" crc="3900016533" ref="index"/>
   </folder>
-  <file name="index.html" crc="394902685" seo="true" mt="1486076831316" redirect="true"/>
-  <file name="habitat.html" crc="343227042" seo="true" mt="1485961615901" redirect="true"/>
-  <file name="about-us.html" crc="4265080866" seo="true" mt="1485961615904" redirect="true"/>
-  <file name="contact-us.html" crc="399353958" seo="true" mt="1485961615906" redirect="true"/>
-  <file name="trump-s-tirade.html" crc="352488605" seo="true" mt="1485961615908" redirect="true"/>
-  <file name="tester.html" crc="3994453596" seo="true" mt="1485961615911" redirect="true"/>
+  <file name="index.html" crc="3932027887" seo="true" mt="1486501820298" redirect="true"/>
+  <file name="habitat.html" crc="394232894" seo="true" mt="1486502188299" redirect="true"/>
+  <file name="about-us.html" crc="3994979551" seo="true" mt="1486501820299" redirect="true"/>
+  <file name="contact-us.html" crc="3923209196" seo="true" mt="1486501820300" redirect="true"/>
+  <file name="trump-s-tirade.html" crc="3849421487" seo="true" mt="1486501820300" redirect="true"/>
+  <file name="tester.html" crc="4143644980" seo="true" mt="1486501820301" redirect="true"/>
 </manifest>
